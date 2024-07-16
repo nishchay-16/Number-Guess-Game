@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    background-color: #7223bd;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    background-color: #ffe9db;
+    width: 50%;
+    text-align: center;
+    padding: 1rem 3rem;
+    border-radius:1rem ;
+    border: 0.1rem solid black;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.image{
+    width:50%;
+    max-height: 10rem;
+    height: auto;
+    margin:1rem 0 1rem 0
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+button{
+    min-width: 20rem;
+    background-image: linear-gradient(92.88deg, 
+                                    #455eb5 9.16%,
+                                    #5643cc 43.89%,
+                                    #643fd7 64.72% );
+    border-radius: 6px;
+    box-shadow: 0 1px 30px rgba(80,63,205,0.2);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button:hover{
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+
+#gameArea{
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGameButton button{
+    margin: 2rem 0 ;
+}
+
+input{
+    border: 0.1rem solid black;
+    background: transparent;
+    margin: 2rem 0 ;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input::placeholder{
+    color:black;
+}
+
+.stats{
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.info span{
+    color:red;
+    text-shadow: #643fd7;
+    font-size: 1rem;
+}
